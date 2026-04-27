@@ -17,7 +17,7 @@ def find_top_student(filename):
                 continue  # skip if GWA is not a number
 
             # Compare to find highest
-            if highest_gwa is None or gwa > highest_gwa:
+            if highest_gwa is None or gwa < highest_gwa:
                 highest_gwa = gwa
                 top_student = name
 
