@@ -1,5 +1,5 @@
 def write_to_file():
-    with open("my_life.txt", "w") as file:
+    with open(r"C:\Users\vicson pogi\Desktop\New folder (2)\my_life.txt", "a") as file:
         while True:
             line = input("Enter line: ")
             file.write(line + "\n")
