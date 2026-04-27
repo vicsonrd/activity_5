@@ -1,7 +1,7 @@
 def separate_numbers():
     try:
         # Open the input file and read all numbers
-       with open("number.txt", "r") as infile:   # ❌ should be "numbers.txt"
+       with open("numbers.txt", "r") as infile:   
         numbers = infile.readlines()
         
         # Convert each line to an integer
